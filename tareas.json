@@ -1,0 +1,71 @@
+{
+	"yesterday": [
+		{
+			"task": "Limpiar tu cuarto",
+			"category": "Limpieza",
+			"points": 50,
+			"icon": "cleaning.svg",
+			"completed": 1
+		},
+		{
+			"task": "Lavar la ropa",
+			"category": "Limpieza",
+			"points": 50,
+			"icon": "cleaning.svg",
+			"completed": 1
+		},
+		{
+			"task": "Darle de comer al perro",
+			"category": "Mascotas",
+			"points": 20,
+			"icon": "pet.svg",
+			"completed": 1
+		}
+	],
+	"today":[
+		{
+			"task": "Limpiar tu cuarto",
+			"category": "Limpieza",
+			"points": 50,
+			"icon": "cleaning.svg",
+			"completed": 1
+		},
+		{
+			"task": "Sacar la basura",
+			"category": "Limpieza",
+			"points": 20,
+			"icon": "cleaning.svg",
+			"completed": 1
+		},
+		{
+			"task": "Darle de comer al perro",
+			"category": "Mascotas",
+			"points": 20,
+			"icon": "pet.svg",
+			"completed": 0
+		}
+	],
+	"tomorrow":[
+		{
+			"task": "Cambiar las sabanas",
+			"category": "Limpieza",
+			"points": 40,
+			"icon": "cleaning.svg",
+			"completed": 0
+		},
+		{
+			"task": "Ir a comprar pan",
+			"category": "Compras",
+			"points": 40,
+			"icon": "shopping.svg",
+			"completed": 0
+		},
+		{
+			"task": "Bañar al perro",
+			"category": "Mascotas",
+			"points": 80,
+			"icon": "pet.svg",
+			"completed": 0
+		}
+	]
+}

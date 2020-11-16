@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+body {
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+#main-header {
+  background-color: #f26c4f;
+  color: white;
+  align-items: stretch;
+}
+#main-header .header-wrapper {
+  margin: 0 auto;
+  max-width: 375px;
+}
+#main-header h1 {
+  flex-grow: 1;
+  padding: 0 1em;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#main-header button {
+  background-color: transparent;
+  border: 0;
+  padding: 0 1.2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#main-content {
+  padding: 1em 1.5em;
+  margin: 0 auto;
+  max-width: 375px;
+}
+#main-content .user-info {
+  align-items: center;
+  margin: 0.8em 0 1.5em;
+}
+#main-content .user-info .user-avatar {
+  height: 4.4em;
+  width: 4.4em;
+}
+#main-content .user-info h2 {
+  color: #f26c4f;
+  flex-grow: 1;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+#main-content .user-info .user-stars {
+  align-items: center;
+}
+#main-content .user-info .user-stars .stars-count {
+  margin-left: 3px;
+  color: #a4a1a1;
+}
+#main-content .todo-nav {
+  margin-bottom: 0.5em;
+}
+#main-content .todo-nav ul {
+  width: 100%;
+  padding: 0;
+}
+#main-content .todo-nav ul li {
+  flex-grow: 1;
+  list-style: none;
+}
+#main-content .todo-nav ul li a {
+  display: block;
+  text-align: center;
+  line-height: 2.2em;
+  background-color: #e8e8e8;
+  color: #a4a1a1;
+  text-decoration: none;
+}
+#main-content .todo-nav ul li a.active {
+  background-image: linear-gradient(#f26c4f, #fe2c00);
+  color: #fafafa;
+  box-shadow: 0px 3px 6px #00000029;
+}
+#main-content .todo-nav ul li:first-child a {
+  border-radius: 18px 0px 0px 18px;
+}
+#main-content .todo-nav ul li:last-child a {
+  border-radius: 0 18px 18px 0;
+}
+#main-content #tasks .task {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  position: relative;
+}
+#main-content #tasks .task .task-icon {
+  height: 53px;
+  width: 53px;
+  background: linear-gradient(#f26d50, #fd2e03);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-content #tasks .task .task-icon img {
+  width: 24px;
+  height: 24px;
+}
+#main-content #tasks .task .description {
+  flex-grow: 1;
+  padding: 0 1em;
+}
+#main-content #tasks .task .description h3 {
+  color: #b0a6a5;
+  margin: 0;
+  font-size: 1.1em;
+}
+#main-content #tasks .task.completed .description h3 {
+  color: #f26c4f;
+}
+#main-content #tasks .task .description span {
+  color: #a4a1a1;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+#main-content #tasks .task .checkbox {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+#main-content #tasks .task .checkbox img {
+  width: 30px;
+  height: 30px;
+}
+#main-content #tasks .task .checkbox .check-completed {
+  display: none;
+}
+#main-content #tasks .task.completed .checkbox .check-outline {
+  display: none;
+}
+#main-content #tasks .task.completed .checkbox .check-completed {
+  display: block;
+}
+#main-content hr {
+  margin: 2em 0 1em 0;
+}
+#main-content .totals .line {
+  color: #a4a1a1;
+  font-size: 0.9em;
+  line-height: 1.5rem;
+}
+#main-content .totals .line.allowance {
+  color: #f26c4f;
+  font-weight: 600;
+}
+#main-content .totals .line.allowance .price {
+  font-size: 1.2rem;
+}
+#main-content .totals .line .concept {
+  flex-grow: 1;
+  text-transform: uppercase;
+}
